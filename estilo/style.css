@@ -4,6 +4,7 @@
 
 :root {
     --cor-azulescuro: #172B4D;
+    --cor-cinza: #808080;
     --cor-branco: #ffffff;
     --font-preto: #000000bd;
     --font-bebas: 'Bebas Neue', cursive;
@@ -56,7 +57,12 @@ div p {
 
 section.imagem {
     color: var(--cor-branco);
-    background: gray url('../imagens/img1.jpg') top center no-repeat fixed;
+    background-color: var(--cor-cinza);
+    background-size: cover;
+}
+
+section#img1 {
+    background: url('../imagens/img1.jpg') top center no-repeat fixed;
     background-size: cover;
 }
 
