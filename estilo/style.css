@@ -75,3 +75,22 @@ section#img2 {
     background: url('../imagens/img2.jpg') center center no-repeat fixed;
     background-size: cover;
 }
+
+aside {
+    background-color: var(--cor-azulescuro);
+    padding: 20px;
+    line-height: 2em;
+}
+
+aside h3 {
+    color: var(--cor-branco);
+    font-family: var(--font-bebas);
+    font-size: 1.2em;
+}
+
+aside p {
+    color: var(--cor-branco);
+    font-family: var(--font-work);
+    font-size: 0.9em;
+    width: 500px;
+}
