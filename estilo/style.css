@@ -5,6 +5,7 @@
 :root {
     --cor-azulescuro: #172B4D;
     --cor-branco: #ffffff;
+    --font-preto: #000000bd;
     --font-bebas: 'Bebas Neue', cursive;
     --font-work: 'Work Sans', cursive;
 }
@@ -18,4 +19,37 @@
 header.topo {
     background-color: var(--cor-azulescuro);
     padding: 20px;
+}
+
+header.topo h1 {
+    color: var(--cor-branco);
+    font-family: var(--font-bebas);
+    font-weight: 700;
+    text-align: center;
+}
+
+section {
+    line-height: 3em;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+section.normal {
+    background-color: var(--cor-branco);
+}
+
+section.normal div {
+    max-width: 600px;
+}
+
+div h2 {
+    font-family: var(--font-bebas);
+    font-size: 3em;
+    font-weight: 900;
+}
+
+div p {
+    font-family: var(--font-work);
+    font-size: 2em;
 }
