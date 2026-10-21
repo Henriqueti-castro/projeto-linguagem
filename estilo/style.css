@@ -1,2 +1,21 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-azulescuro: #172B4D;
+    --cor-branco: #ffffff;
+    --font-bebas: 'Bebas Neue', cursive;
+    --font-work: 'Work Sans', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header.topo {
+    background-color: var(--cor-azulescuro);
+    padding: 20px;
+}
