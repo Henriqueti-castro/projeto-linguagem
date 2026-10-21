@@ -61,12 +61,17 @@ section.imagem {
     background-size: cover;
 }
 
+section.imagem div {
+    background-color: var(--font-preto);
+    max-width: 600px;
+}
+
 section#img1 {
     background: url('../imagens/img1.jpg') top center no-repeat fixed;
     background-size: cover;
 }
 
-section.imagem div {
-    background-color: var(--font-preto);
-    max-width: 600px;
+section#img2 {
+    background: url('') top center no-repeat fixed;
+    background-size: cover;
 }
