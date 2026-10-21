@@ -72,6 +72,6 @@ section#img1 {
 }
 
 section#img2 {
-    background: url('') top center no-repeat fixed;
-    background-size: cover;
+    background: url('../imagens/img2.jpg') top center no-repeat fixed;
+    background-size: 100% 100%;
 }
