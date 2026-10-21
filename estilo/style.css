@@ -94,3 +94,15 @@ aside p {
     font-size: 0.9em;
     width: 800px;
 }
+
+footer {
+    background-color: var(--cor-azulescuro);
+    border-top: 1px solid var(--cor-branco);
+    padding: 10px;
+}
+
+footer p {
+    color: var(--cor-branco);
+    font-family: var(--font-bebas);
+    text-align: center;
+}
