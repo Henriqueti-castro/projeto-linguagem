@@ -53,3 +53,14 @@ div p {
     font-family: var(--font-work);
     font-size: 2em;
 }
+
+section.imagem {
+    color: var(--cor-branco);
+    background: gray url('../imagens/img1.jpg') top center no-repeat fixed;
+    background-size: cover;
+}
+
+section.imagem div {
+    background-color: var(--font-preto);
+    max-width: 600px;
+}
